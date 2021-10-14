@@ -1,0 +1,52 @@
+body {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #000;
+  color: bisque;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.container {
+  transition: transform 0.2s;
+  will-change: transform;
+  scroll-behavior: smooth;
+}
+
+.heading {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading span {
+  font-size: 10rem;
+  text-align: center;
+  font-weight: 900;
+}
+
+.contents {
+  margin: 7rem;
+}
+.content {
+  display: flex;
+  margin: 10rem;
+  align-items: center;
+}
+
+.content span {
+  margin-left: 30px;
+  font-size: 1.5rem;
+}
